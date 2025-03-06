@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        var friend = 19;  // Переменная friend типа int
-        System.out.println("Начальное значение переменной friend: " + friend);
-        friend += 2;
-        System.out.println("Значение переменной friend после увеличения на 2: " + friend);
-        friend /= 7;
-        System.out.println("Значение переменной friend после деления на 7: " + friend);
+        var frog = 3.5;
+        System.out.println("Начальное значение переменной frog: " + frog);
+        frog *= 10;
+        System.out.println("Значение переменной frog после увеличения в 10 раз: " + frog);
+        frog /= 3.5;
+        System.out.println("Значение переменной frog после деления на 3.5: " + frog);
+        frog += 4;
+        System.out.println("Значение переменной frog после добавления 4: " + frog);
     }
-    }
+}

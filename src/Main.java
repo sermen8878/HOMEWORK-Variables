@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-
-        var boxer1Weight = 78.2;
-        var boxer2Weight = 82.7;
-        var remainder = boxer2Weight % boxer1Weight;
-        System.out.println("Остаток от деления массы второго боксера на массу первого: " + remainder + " кг");
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var numberOfEmployees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании — " + numberOfEmployees + " человек");
+        var newNumberOfEmployees = numberOfEmployees + 94;
+        var newTotalHours = newNumberOfEmployees * hoursPerEmployee;
+        System.out.println("Если в компании работает " + newNumberOfEmployees + " человек, то всего " + newTotalHours + " часов работы может быть поделено между сотрудниками");
     }
 }
